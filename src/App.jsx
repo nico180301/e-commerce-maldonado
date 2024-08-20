@@ -9,7 +9,6 @@ import Navbar from "./components/Navbar/NavBar.jsx";
 function App() {
   //count: es el valor de mi estado
   //setCount: es la función que me permite actualizar el valor de mi estado 
-  //e-commerce-react
   const [count, setCount] = useState(0);
   const handleRemoveItem = () => {
     if (count === 0) return;
