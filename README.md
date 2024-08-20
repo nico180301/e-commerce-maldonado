@@ -8,7 +8,7 @@ En esta entrega se realizaron las siguientes consignas solicitadas de la pre-ent
 Su funcionalidad es la de renderizar una barra de menú (Navbar)."
 
 Entregado:
-    Brand (título/nombre de la tienda) : Tecnocompu
+    Brand (título/nombre de la tienda) : Tecnocomponents
     Un listado de categorías clickeables
     Incorpora alguna librería de estilos con bootstrap/materialize 
         u otro de tu preferencia: se utilizo "Chakra"
