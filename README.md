@@ -1,16 +1,20 @@
-# Challenge 1
+# Challenge 2
 
 # React + Vite
 
-En esta entrega se realizaron las siguientes consignas solicitadas de la pre-entrega-1
+En esta entrega se realizaron las siguientes consignas solicitadas de la pre-entrega-2
 
-"Crea una carpeta dentro de src llamada components que contenga la implementación del componente NavBar dentro del archivo NavBar.js. 
-Su funcionalidad es la de renderizar una barra de menú (Navbar)."
+"Configura en App.js el routing usando un BrowserRouter de tu aplicación con react-router-dom"
 
-Entregado:
+Se hace entrega de:
+    Navbar con cart
+    Catálogo
+    Detalle de producto
+====================================================================================================================
+Entregado anterioremente:
     Brand (título/nombre de la tienda) : Tecnocomponents
     Un listado de categorías clickeables
     Incorpora alguna librería de estilos con bootstrap/materialize 
-        u otro de tu preferencia: se utilizo "Chakra"
+    u otro de tu preferencia: se utilizo "Chakra"
 
 
