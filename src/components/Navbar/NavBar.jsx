@@ -14,7 +14,7 @@ import {
   Center,
 } from "@chakra-ui/react";
 import { MoonIcon, SunIcon } from "@chakra-ui/icons";
-import { CartWidget } from "../CartWidget";
+import { CartWidget } from "../CartWidget1";
 import { Link } from "react-router-dom";
 import { useCategory } from "../../hooks";
 
@@ -28,7 +28,7 @@ export const NavBar = () => {
       <Box bg={useColorModeValue("gray.100", "gray.900")} px={4}>
         <Flex h={16} alignItems={"center"} justifyContent={"space-between"}>
           <Box>
-            <Link to="/">Tecnocomponents</Link>
+            <Link to="/">MallStore</Link>
             <Menu>
             <MenuButton as={Link} cursor="pointer" style={{ marginLeft: 30 }}>
               Categorias

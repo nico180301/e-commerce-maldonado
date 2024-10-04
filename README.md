@@ -12,7 +12,7 @@ Se hace entrega de:
     Detalle de producto
 ====================================================================================================================
 Entregado anterioremente:
-    Brand (título/nombre de la tienda) : Tecnocomponents
+    Brand (título/nombre de la tienda) : MallStore
     Un listado de categorías clickeables
     Incorpora alguna librería de estilos con bootstrap/materialize 
     u otro de tu preferencia: se utilizo "Chakra"
