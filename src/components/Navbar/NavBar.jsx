@@ -14,9 +14,10 @@ import {
   Center,
 } from "@chakra-ui/react";
 import { MoonIcon, SunIcon } from "@chakra-ui/icons";
-import { CartWidget } from "../CartWidget1";
+import { CartWidget } from "../CartWidget";
 import { Link } from "react-router-dom";
 import { useCategory } from "../../hooks";
+import { createProductsFirestore } from "../../helpers";
 
 export const NavBar = () => {
   const { colorMode, toggleColorMode } = useColorMode();
@@ -29,7 +30,8 @@ export const NavBar = () => {
         <Flex h={16} alignItems={"center"} justifyContent={"space-between"}>
           <Box>
             <Link to="/">MallStore</Link>
-            <Menu>
+          </Box>
+          <Menu>
             <MenuButton as={Link} cursor="pointer" style={{ marginLeft: 30 }}>
               Categorias
             </MenuButton>
@@ -41,8 +43,9 @@ export const NavBar = () => {
               ))}
             </MenuList>
           </Menu>
-          </Box>
-          
+          <Button onClick={() => createProductsFirestore("products")}>
+            Crear productos
+          </Button>
           <Flex alignItems={"center"}>
             <Stack direction={"row"} spacing={7}>
               <CartWidget />

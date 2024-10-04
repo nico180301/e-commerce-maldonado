@@ -1,5 +1,5 @@
-export * from './CartWidget1';
+export * from './CartWidget';
 export * from './ItemListContainer';
 export * from './NavBar';
 export * from './ItemDetailContainer';
-export * from './Loader';
+export * from './Loader'

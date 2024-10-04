@@ -1,1 +1,1 @@
-export * from './ItemListContainer.jsx'
+export * from './ItemListContainer';

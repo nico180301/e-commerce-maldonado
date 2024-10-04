@@ -1,1 +1,1 @@
-export * from './NavBar.jsx'
+export * from './NavBar'; // exporta todo lo que se exporta en NavBar
